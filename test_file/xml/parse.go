@@ -52,7 +52,7 @@ func main()  {
 		return
 	}
 	v := Recurlyservers{}
-	err = xml.Unmarshal(data, &v)
+	err = xml.Unmarshal(data, &v)  //解析xml
 	if err != nil {
 		fmt.Printf("error: %v", err)
 		return
